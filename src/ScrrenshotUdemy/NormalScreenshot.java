@@ -16,6 +16,8 @@ public class NormalScreenshot {
 		// TODO Auto-generated method stub
 		
 		
+		System.out.println("abcdefgh");
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Priyanka\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 		
 		ChromeDriver driver = new ChromeDriver();
