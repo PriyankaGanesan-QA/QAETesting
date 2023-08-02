@@ -12,8 +12,11 @@ public class LinkExone {
 		
 		System.out.println("NEW GIT COMMAND");
 		
+
 		System.out.println("NEW GIT COMMAND2");
-		
+
+		System.out.println("NEW GIT COMMANDdevelop");
+
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Priyanka\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 		
 		ChromeDriver driver = new ChromeDriver();
@@ -23,6 +26,8 @@ public class LinkExone {
 		//driver.findElement(By.linkText("Go to Dashboard")).click();
 		
 		driver.findElement(By.partialLinkText("Go to")).click();
+		
+		
 	}
 
 }

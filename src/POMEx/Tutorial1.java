@@ -8,6 +8,13 @@ import org.testng.annotations.Test;
 
 public class Tutorial1 {
 
+	
+	@Test
+	void mergeconflict() {
+		System.out.println("abcdefg");
+	}
+	
+	
 	@BeforeMethod
 	void google() {
 		System.out.println("open url");

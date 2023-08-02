@@ -13,5 +13,11 @@ public class method {
 		
 		
 	}
+	
+	public void validlogin22() {
+		System.out.println("login22");
+		
+		
+	}
 
 }

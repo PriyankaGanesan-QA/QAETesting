@@ -8,8 +8,11 @@ import org.testng.annotations.Test;
 public class listenertest implements ITestListener{
 	
 	public void onStart(ITestContext context) { 
+		
+		System.out.println("listener1");
+	 
 		 System.out.println("onStart method started");
-		 }
+		 
 		 
 		 public void onFinish(ITestContext context) {
 		 System.out.println("onFinish method started");
