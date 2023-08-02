@@ -19,6 +19,8 @@ public class LinkExone {
 		//driver.findElement(By.linkText("Go to Dashboard")).click();
 		
 		driver.findElement(By.partialLinkText("Go to")).click();
+		
+		System.out.println("pull command");
 	}
 
 }
